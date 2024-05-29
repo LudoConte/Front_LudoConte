@@ -1,0 +1,31 @@
+<div class="main-content">
+
+</div><div class="chat-container">
+  <div class="messages-container">
+    <div class="ideas-container" *ngIf="ideas.length > 0">
+      <div class="idea" *ngFor="let idea of ideas">{{ idea }}</div>
+    </div>
+
+    <div class="cards" *ngIf="showCards">
+      <div class="card">
+        <fa-icon [icon]="faPenToSquare" style="color: #B197FC;"></fa-icon>
+        <span class="chat-text">Créez une narration éducative immersive en utilisant des techniques d'IA.</span>
+      </div>
+      <div class="card">
+        <fa-icon [icon]="faPuzzlePiece" style="color: #B0EBB4;"></fa-icon>
+        <span class="chat-text">Concevez des défis qui favorisent le développement des compétences à travers des histoires interactives.</span>
+      </div>
+      <div class="card">
+        <fa-icon [icon]="faWandMagicSparkles" style="color: #5AB2FF;"></fa-icon>
+        <span class="chat-text">Combinez des mécanismes éducatifs et des éléments narratifs pour améliorer l'apprentissage.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="input-container">
+    <input type="text" placeholder="Message LudoConte ... " class="chat-input" [(ngModel)]="newIdea">
+    <button class="send-button" (click)="sendIdea()">
+      <i class="fas fa-paper-plane"></i>
+    </button>
+  </div>
+</div>

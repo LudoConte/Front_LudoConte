@@ -1,0 +1,83 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 60px; /* Give some space for the input-container */
+}
+
+.ideas-container {
+  margin-bottom: 20px;
+}
+
+.idea {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 20px;
+  font-style: italic;
+  height: 390px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  color: #555;
+  height: 110px;
+  border-radius: 30px;
+
+}
+
+.input-container {
+  position: fixed;
+  bottom: 0;
+  left: 250px; /* Same as sidebar width */
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-left: 60px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button i {
+  font-size: 16px;
+}

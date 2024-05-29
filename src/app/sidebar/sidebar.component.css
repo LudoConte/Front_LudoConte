@@ -1,0 +1,42 @@
+.sidebar {
+  width: 250px;
+  background-color: #F6F5F5; /* Couleur de fond ajoutée */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Évite le défilement */
+  height: 100vh; /* S'assure que la hauteur prend tout l'écran */
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chatbot {
+  width: 40px; /* Ajustez cette valeur pour la taille souhaitée du logo */
+  height: 40px; /* Assurez-vous que l'image conserve ses proportions */
+  margin-right: 10px;
+}
+
+.chat-title {
+  font-size: 1.5em; /* Ajustez la taille de la police selon vos besoins */
+  font-weight: bold;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+
+
+.sidebar-image {
+  width: 250px;
+  height: 530px;
+  display: block;
+
+}
