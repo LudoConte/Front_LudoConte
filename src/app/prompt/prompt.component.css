@@ -81,3 +81,39 @@
 .send-button i {
   font-size: 16px;
 }
+
+.send-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-button i {
+  margin: 0;
+}
+
+.fa-spin{
+  margin-bottom: 10px;
+}
+
+.user-message {
+  background-color: #e0f7fa;
+  color: #00695c;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 30%;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.chatbot-message {
+  background-color: #fce4ec;
+  color: #880e4f;
+  padding: 10px;
+  margin: 5px;
+  margin-right: 30%;
+  border-radius: 10px;
+  text-align: left;
+}
